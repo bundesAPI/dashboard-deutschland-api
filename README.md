@@ -7,16 +7,19 @@ Auf https://www.dashboard-deutschland.de bietet das Statistische Bundesamt DESTA
 
 **URL:** https://www.dashboard-deutschland.de/api/dashboard/get
 	
-Die API ermöglicht über diese URL den Zugriff auf alle gültigen Einträge des id-Parameters getrennt nach id-Kategorien (siehe unten, Indikatoren). 
+Die API ermöglicht über diese URL den Zugriff auf alle gültigen Einträge des ids-Parameters getrennt nach Kategorien (siehe unten, Indikatoren). 
 
 
 ## Indikatoren
 
 **URL:** www.dashboard-deutschland.de/api/tile/indicators
 	
-Die API ermöglicht über diese URL Zugriff auf unterschiedliche Indikatoren im JSON-Format über einfache GET-requests mit nur einem Parameter (namens *ids*). Der Parameter ids spezifiziert den gewünschten Indikator. Mögliche Ausprägungen sind im Folgenden tabellarisch dargestellt. Mehrere Semikolon-getrennte Angaben sind möglich. Gesundheitsindikatoren (beginnend mit "ginsy_ges") lassen sich über eine Variation der u.g. id auch nach Regionen von Bundesländern unterteilt anfordern - durch Ergänzung eines Unterstrichs, gefolgt von einer das Bundesland repräsentierenden Zahl (z.B. 9 für Bayern).
+Die API ermöglicht über diese URL Zugriff auf unterschiedliche Indikatoren im JSON-Format über einfache GET-requests mit nur einem Parameter (namens *ids*). 
+Der Parameter ids spezifiziert den gewünschten Indikator. 
+Mögliche Ausprägungen sind im Folgenden tabellarisch dargestellt. 
+Mehrere Semikolon-getrennte Angaben sind möglich. 
 
-|ids|Bedeutung|Beispiel-URL|
+|Indikator|ids-value|Beispiel-URL|
 |---|---|---|
 |tile_1667993866759|Ausgewählte Erdgaslieferungen nach Deutschland|www.dashboard-deutschland.de/api/tile/indicators?ids=tile_1667993866759|
 |data_bau_bauleistungspreise|Baupreisindizes|www.dashboard-deutschland.de/api/tile/indicators?ids=data_bau_bauleistungspreise|
@@ -175,6 +178,7 @@ Die API ermöglicht über diese URL Zugriff auf unterschiedliche Indikatoren im 
 |data_mobilitaet_mobilfunk_hotspot|Tägliche Mobilitätsveränderung und 7-Tage-Inzidenz auf Kreisebene auf Grundlage von Mobilfunkdaten|www.dashboard-deutschland.de/api/tile/indicators?ids=data_mobilitaet_mobilfunk_hotspot|
 |tile_1667208064878|Tischreservierungen über OpenTable|www.dashboard-deutschland.de/api/tile/indicators?ids=tile_1667208064878|
 |data_woh_baugenehmigungen_wohnflaeche|Wohnfläche in genehmigten Neubauwohnungen|www.dashboard-deutschland.de/api/tile/indicators?ids=data_woh_baugenehmigungen_wohnflaeche|
+
 
 
 ## Geojson

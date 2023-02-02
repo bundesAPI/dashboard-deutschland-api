@@ -15,8 +15,8 @@ json=sapply(dat1,function(x)rjson::fromJSON(x$json))
 
 # Output Markdown-table
 #----------------------
-tab=paste(c("|ids|Bedeutung|Beispiel-URL|","|---|---|---|",
-		sapply(dat1,function(x)paste0("|",x$id,"|",x$title,"|www.dashboard-deutschland.de/api/tile/indicators?ids=",x$id,"|"))),
+tab=paste(c("|Indikator|ids-value|Beispiel-URL|","|---|---|---|",
+		sapply(dat1,function(x)paste0("|",x$title,"|",x$id,"|www.dashboard-deutschland.de/api/tile/indicators?ids=",x$id,"|"))),
 	collapse="\n")
 writeLines(tab,"table.txt")
 
