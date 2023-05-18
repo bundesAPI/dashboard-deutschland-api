@@ -20,4 +20,5 @@ tab=paste(c("|Indikator|ids-value|Beispiel-URL|","|---|---|---|",
 	collapse="\n")
 writeLines(tab,"table.txt")
 
+writeLines(paste(sapply(dat1,function(x)paste0("- ",x$id," (",x$title,")")),collapse="\n"),"list.txt")
 
