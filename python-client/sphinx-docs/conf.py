@@ -11,7 +11,7 @@ sys.path.insert(0, os.path.abspath("../"))
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = "DashboardDeutschland-api"
-copyright = "2023, Andreas Fischer"
+copyright = "2024, Andreas Fischer"
 author = "Andreas Fischer"
 
 version = "0.1.0"
