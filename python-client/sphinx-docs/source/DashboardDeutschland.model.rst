@@ -9,61 +9,61 @@ DashboardDeutschland.model.geo module
 
 .. automodule:: DashboardDeutschland.model.geo
    :members:
-   :undoc-members:
    :show-inheritance:
+   :undoc-members:
 
 DashboardDeutschland.model.geo\_crs module
 ------------------------------------------
 
 .. automodule:: DashboardDeutschland.model.geo_crs
    :members:
-   :undoc-members:
    :show-inheritance:
+   :undoc-members:
 
 DashboardDeutschland.model.geo\_crs\_properties module
 ------------------------------------------------------
 
 .. automodule:: DashboardDeutschland.model.geo_crs_properties
    :members:
-   :undoc-members:
    :show-inheritance:
+   :undoc-members:
 
 DashboardDeutschland.model.get module
 -------------------------------------
 
 .. automodule:: DashboardDeutschland.model.get
    :members:
-   :undoc-members:
    :show-inheritance:
+   :undoc-members:
 
 DashboardDeutschland.model.get\_category module
 -----------------------------------------------
 
 .. automodule:: DashboardDeutschland.model.get_category
    :members:
-   :undoc-members:
    :show-inheritance:
+   :undoc-members:
 
 DashboardDeutschland.model.get\_layout\_tiles\_inner module
 -----------------------------------------------------------
 
 .. automodule:: DashboardDeutschland.model.get_layout_tiles_inner
    :members:
-   :undoc-members:
    :show-inheritance:
+   :undoc-members:
 
 DashboardDeutschland.model.indicators module
 --------------------------------------------
 
 .. automodule:: DashboardDeutschland.model.indicators
    :members:
-   :undoc-members:
    :show-inheritance:
+   :undoc-members:
 
 Module contents
 ---------------
 
 .. automodule:: DashboardDeutschland.model
    :members:
-   :undoc-members:
    :show-inheritance:
+   :undoc-members:
