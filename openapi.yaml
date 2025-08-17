@@ -43,12 +43,12 @@ paths:
         - Indicators
       parameters:
         - in: query
-          name: id
+          name: ids
           schema:
             type: string
             
           description: |
-            "Die API ermöglicht Zugriff auf unterschiedliche Indikatoren im JSON-Format über einfache GET-requests mit nur einem Parameter (namens `id`). Der Parameter `id` spezifizierten den gewünschten Indikator. Mögliche Ausprägungen sind im Folgenden nach Kategorien getrennt aufgelistet und in runden Klammern kurz erläutert. Mehrere Semikolon-getrennte Angaben sind möglich. 
+            "Die API ermöglicht Zugriff auf unterschiedliche Indikatoren im JSON-Format über einfache GET-requests mit nur einem Parameter (namens `ids`). Der Parameter `ids` spezifizierten den gewünschten Indikator. Mögliche Ausprägungen sind im Folgenden nach Kategorien getrennt aufgelistet und in runden Klammern kurz erläutert. Mehrere Semikolon-getrennte Angaben sind möglich. 
 
             - tile_1669367676459 (Anteil des Einkommens, den Miethaushalte für eine warme Wohnung (einschl. Strom) ausgeben, nach Haushaltsgröße und Ländern)
             - tile_1654002158461 (Importe und Exporte von Wasserstoff)
